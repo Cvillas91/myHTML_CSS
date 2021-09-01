@@ -1,0 +1,66 @@
+body{
+    background-color: lightsteelblue;
+}
+
+#pTag{
+    font-size: 30px;
+}
+
+.unorderedListClass{
+    font-size: 20px;
+    list-style-type: none;
+
+}
+
+.orderedListClass{
+    font-size: 20px;
+    list-style-type: upper-roman;
+}
+
+.unorderedListClass li::before{
+    font-family: 'Font Awesome 5 free';
+    content: "\f1fc";
+}
+
+.h2-class {
+    font-size: 30px;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+  }
+
+.h1-class {
+    font-size: 40px;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+
+img {
+    width: 300px;
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+p > span {
+    font-style: italic;
+}
+
+p > span > span{
+    text-decoration: underline;
+}
+
+.special-class{
+    font-style: normal;
+    color: red;
+}
+
+#LastDiv{
+    text-align: right;
+}

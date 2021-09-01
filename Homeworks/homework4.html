@@ -1,0 +1,100 @@
+<!--
+Name: Carlos Gonzalo Villas Velazquez
+Date: November 03, 2020
+
+Homework Assignment #4: Basic Styling
+
+Part 1: Write the Code
+    Let's go back to your recipe (from assignments #1, #2, and #3), and add some styling to it. 
+    You can choose to use inline styles, or a <style> block within your document, or an external stylesheet. It's up to you. 
+    If you use an external stylesheet make sure to include it in the files you upload.
+    1. Change the background color of the entire page (choose any color you wish)
+    2. Change the font size of the paragraphs and lists so they are different sizes.
+    3. Add padding below each heading (h1, h2 etc) you've used, to space them out from the content they're above.
+    4. Make the page title (the h1) bold, and make it underlined.
+    5. Find a website that lists out all the various css properties you can use, and note that URL as a comment in your code.
+    6. Using that website as a resource, add a styling property that we haven't covered yet.
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href="homework4styles.css">
+    <title>Recipe #1</title>
+</head>
+<body>
+    <h1>Pasta with Tuna and Capers in White Wine Sauce Recipe</h1> <!--The h1 tag for the recipe's name-->
+    <p>This is a pasta served with a sauce made with oil-packed canned tuna, onions, capers, white wine, and parsley,
+        it is one of my favorites because there is a little secret within this recipe: olive oil-packed canned tuna, chili pepper flakes, 
+        and pasta is a master combination (and classic Italian).
+    </p>
+    <div>
+        <h2>Ingredients</h2> <!--The h2 tag for the header of the ingredients-->
+        <ul> <!--The ul(unordered list) tag for all the ingredients of the recipe-->
+            <li>Salt</li>
+            <li>4 ounces bow tie (farfalle), linguini, or spaghetti pasta</li>
+            <li>2 tablespoons extra virgin olive oil (plus more)</li>
+            <li>1/2 medium onion, chopped</li>
+            <li>Pinch chili pepper flakes</li>
+            <li>1 (6-ounce) can tuna packed in olive oil, drained</li>
+            <li>1 tablespoon capers</li>
+            <li>1/4 teaspoon salt</li>
+            <li>1/4 cup dry white wine</li>
+            <li>2 tablespoons chopped flat leaf parsley</li>
+            <li>Freshly ground black pepper</li> 
+        </ul>
+        <h2>Method</h2> <!--The h2 tag for the header of the procedure-->
+        <ol> <!--The ol(ordered list) tag for all the steps in the preparation of the recipe-->
+            <li>
+                Cook the pasta: Bring a large pot of water to a boil, add salt (1 1/2 teaspoons for every quart of water), return to a boil. 
+                Add the pasta and cook according to package directions until cooked through, but still firm (al dente).&#x1F345
+            </li>
+            <li>
+                Cook the onions and chili pepper flakes: While the water is coming to a boil and the pasta is cooking, prepare the rest of the recipe. 
+                In a large, wide sauté pan, heat a couple tablespoons of olive oil on medium heat. Add the chopped onion and chili pepper flakes and cook 
+                until translucent, about 5 minutes or so. &#x1F343
+            </li>
+            <li>
+                Mix in the canned tuna, the capers, and the salt. Add the wine, bring to a simmer then lower the heat to low. 
+                Cook for 10 minutes or longer, while the pasta is cooking. If the mixture begins to dry out, add a little more wine. &#x23F2
+            </li>
+            <li>
+                Add the drained pasta to the tuna mixture: When the pasta is ready, drain it and add it in to the pan with the tuna. 
+                Toss to mix. &#x1F44C
+            </li>
+            <li>
+                Drizzle on a bit more olive oil over it all, then add the chopped parsley and a few grinds of black pepper to taste. &#x1F35D
+            </li>
+        </ol>
+        <h2>Similar Recipes</h2> 
+        <ul> <!--The ol(ordered list) tag for all the steps in the preparation of the recipe-->
+            <li>
+                <a href="https://www.simplyrecipes.com/recipes/pasta_with_tuna_and_capers_in_white_wine_sauce/", target="_blank">Simply Recipes</a>    
+            </li>
+            <li>
+                <a href="https://www.thespruceeats.com/garlic-lemon-capers-and-tuna-4045018", target="_blank">The Pruce Eats</a>
+            </li>
+            <li>
+                <a href="https://www.abeautifulplate.com/tuna-pasta/", target="_blank">A beautiful plate</a>
+            </li>
+            <li>
+                <a href="https://www.marthastewart.com/1066641/spaghetti-tuna-and-caper-sauce", target="_blank">Martha Stewart</a>
+            </li>
+            <li>
+                <a href="https://www.punchfork.com/recipe/Pasta-with-Tuna-and-Capers-in-White-Wine-Sauce-Simply-Recipes", target="_blank">PunchFork!</a>
+            </li>
+        </ul>
+
+        <img src="https://www.simplyrecipes.com/wp-content/uploads/2009/08/pasta-tuna-capers-vertical-a2-800-600x819.jpg" alt="finished pasta">
+        <img src="https://assets.simplyrecipes.com/wp-content/uploads/2009/08/pasta-tuna-capers-vertical-b-800.jpg" alt="finished pasta 2">
+    </div>
+
+    <div>
+        <a href="https://www.w3schools.com/cssref/">CSS properties</a>
+    </div>
+
+</body>
+
+</html>

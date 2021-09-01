@@ -1,0 +1,190 @@
+body{
+    background-image: url("https://i.ibb.co/m0PJ5Sv/wikilogo.png");
+    text-align: center;
+}
+
+.WikiFont0 {
+    font-family: 'Linux Libertine'; /* normal */
+    src: url('LinLibertine_R-webfont.eot');
+    src: url('LinLibertine_R-webfont.eot?#iefix') format('embedded-opentype'),
+         url('LinLibertine_R-webfont.woff') format('woff'),
+         url('LinLibertine_R-webfont.ttf') format('truetype'),
+         url('LinLibertine_R-webfont.svg#LinuxLibertineORegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-size: 27px;
+    line-height:0px;
+}
+
+.WikiFont1 {
+    font-family: 'Linux Libertine'; /* normal */
+    src: url('LinLibertine_R-webfont.eot');
+    src: url('LinLibertine_R-webfont.eot?#iefix') format('embedded-opentype'),
+         url('LinLibertine_R-webfont.woff') format('woff'),
+         url('LinLibertine_R-webfont.ttf') format('truetype'),
+         url('LinLibertine_R-webfont.svg#LinuxLibertineORegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    line-height:0px;
+}
+
+.WAspan {
+    font-family: 'Linux Libertine'; /* normal */
+    src: url('LinLibertine_R-webfont.eot');
+    src: url('LinLibertine_R-webfont.eot?#iefix') format('embedded-opentype'),
+         url('LinLibertine_R-webfont.woff') format('woff'),
+         url('LinLibertine_R-webfont.ttf') format('truetype'),
+         url('LinLibertine_R-webfont.svg#LinuxLibertineORegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-size: 35px;
+    line-height:0px;
+
+}
+
+#div0{
+    text-align: center;
+}
+
+.langTable{
+    text-align: center;
+}
+
+.lang1{
+    padding-left: 350px;
+    color: blue;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.lang2{
+    padding-right: 350px;
+    color: blue;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.lang1art{
+    padding-left: 340px;
+    color: grey;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+.lang2art{
+    padding-right: 340px;
+    color: grey;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+.lang3{
+    padding-left: 260px;
+    color: blue;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.lang4{
+    padding-right: 260px;
+    color: blue;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.lang3art{
+    padding-left: 250px;
+    color: grey;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+.lang4art{
+    padding-right: 250px;
+    color: grey;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+.lang5{
+    padding-left: 240px;
+    color: blue;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.lang6{
+    padding-right: 240px;
+    color: blue;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.lang5art{
+    padding-left: 230px;
+    color: grey;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+.lang6art{
+    padding-right: 230px;
+    color: grey;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  form.searchform input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid blue;
+    float: left;
+    width: 80%;
+    background: white;
+    max-width:800px
+  }
+  
+  form.searchform button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: blue;
+    color: white;
+    font-size: 17px;
+    border: 1px solid blue;
+    border-left: none; 
+    cursor: pointer;
+    
+  }
+
+  .searchform{
+    display: inline-block;
+  }
+
+  #textBox{
+    text-align: center;
+    border: 1px solid black;
+    font-size:16px;
+    padding:10px 30px;
+    margin:5px;
+    background-color: lightgray;
+    color: blue;
+    font-weight: bold;
+  }

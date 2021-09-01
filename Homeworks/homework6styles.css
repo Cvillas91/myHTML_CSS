@@ -1,0 +1,253 @@
+@media only screen and (min-width:750px) {
+body{
+    background-color: lightsteelblue;
+}
+
+#pTag{
+    font-size: 30px;
+}
+
+.unorderedListClass{
+    font-size: 20px;
+    list-style-type: none;
+
+}
+
+.orderedListClass{
+    font-size: 20px;
+    list-style-type: upper-roman;
+}
+
+.unorderedListClass li::before{
+    font-family: 'Font Awesome 5 free';
+    content: "\f1fc";
+}
+
+.h2-class {
+    font-size: 30px;
+  }
+
+.h1-class {
+    font-size: 40px;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+
+img {
+    width: 300px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+p > span {
+    font-style: italic;
+}
+
+p > span > span{
+    text-decoration: underline;
+}
+
+.special-class{
+    font-style: normal;
+    color: red;
+}
+
+#LastDiv{
+    text-align: right;
+}
+
+#sectionImg{
+    display: flex;
+}
+
+#section1{
+    display: flex;
+}
+
+#sectionIngredients,
+#sectionMethod{
+    display: block;
+    width: 60%;
+}
+
+#sectionSimilar{
+    text-align: center;
+    display: flex;
+}
+}
+
+@media only screen and (max-width:749px) {
+    body{
+        background-color: lightgreen;
+    }
+    
+    #pTag{
+        font-size: 20px;
+    }
+    
+    .unorderedListClass{
+        font-size: 10px;
+        list-style-type: none;
+    
+    }
+    
+    .orderedListClass{
+        font-size: 10px;
+        list-style-type: upper-roman;
+    }
+    
+    .unorderedListClass li::before{
+        font-family: 'Font Awesome 5 free';
+        content: "\f1fc";
+    }
+    
+    .h2-class {
+        font-size: 20px;
+      }
+    
+    .h1-class {
+        font-size: 30px;
+        padding-top: 40px;
+        padding-right: 20px;
+        padding-bottom: 40px;
+        padding-left: 70px;
+        font-weight: bold;
+        text-decoration: underline;
+      }
+    
+    img {
+        width: 200px;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    
+    p > span {
+        font-style: italic;
+    }
+    
+    p > span > span{
+        text-decoration: underline;
+    }
+    
+    .special-class{
+        font-style: normal;
+        color: red;
+    }
+    
+    #LastDiv{
+        text-align: right;
+    }
+    
+    #sectionImg{
+        display: flex;
+    }
+    
+    #section1{
+        display: flex;
+    }
+    
+    #sectionIngredients,
+    #sectionMethod{
+        display: block;
+        width: 60%;
+    }
+    
+    #sectionSimilar{
+        text-align: center;
+        display: flex;
+    }
+    }
+    @media only screen and (max-width:399px) {
+        body{
+            background-color: lightyellow;
+        }
+        
+        #pTag{
+            font-size: 10px;
+        }
+        
+        .unorderedListClass{
+            font-size: 10px;
+            list-style-type: none;
+        
+        }
+        
+        .orderedListClass{
+            font-size: 10px;
+            list-style-type: upper-roman;
+        }
+        
+        .unorderedListClass li::before{
+            font-family: 'Font Awesome 5 free';
+            content: "\f1fc";
+        }
+        
+        .h2-class {
+            font-size: 20px;
+          }
+        
+        .h1-class {
+            font-size: 20px;
+            padding-top: 30px;
+            padding-right: 10px;
+            padding-bottom: 30px;
+            padding-left: 60px;
+            font-weight: bold;
+            text-decoration: underline;
+          }
+        
+        img {
+            width: 200px;
+            height: auto;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            display:none;
+          }
+        
+        p > span {
+            font-style: italic;
+        }
+        
+        p > span > span{
+            text-decoration: underline;
+        }
+        
+        .special-class{
+            font-style: normal;
+            color: red;
+        }
+        
+        #LastDiv{
+            text-align: right;
+            display:none;
+        }
+        
+        #sectionImg{
+            display: flex;
+        }
+        
+        #section1{
+            display: flex;
+        }
+        
+        #sectionIngredients,
+        #sectionMethod{
+            display: block;
+            width: 60%;
+        }
+        
+        #sectionSimilar{
+            text-align: center;
+            display: flex;
+            display:none;
+        }
+        }
